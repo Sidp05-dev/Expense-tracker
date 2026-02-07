@@ -16,3 +16,16 @@ A full-stack web application that helps users track daily expenses, analyze spen
 
 ## Status
 🚧 Project under development
+
+## Project Structure
+server/
+ ├── index.js
+ ├── models/
+ │   └── Expense.js
+ ├── routes/
+ │   └── expenseRoutes.js
+ └── client/
+     ├── src/
+     │   ├── App.jsx
+     │   ├── main.jsx
+     │   └── index.css
